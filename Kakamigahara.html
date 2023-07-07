@@ -6,8 +6,8 @@
         <meta name="description" content="ページの概要">
         <meta name="viewport" content="width=device-width">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="js/script.js"></script>
-        <link href="css/Kakamigahara.css" rel="stylesheet">
+        <script src="jsSource/script.js"></script>
+        <link href="cssSource/Kakamigahara.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">    </head>
@@ -15,66 +15,92 @@
         <header class="header">
             <div class="header-inner">
                 <a class="header-logo" href="index.html">
-                    <img src="images/common/logo.png" alt="ロゴ">
+                    <h2><font face="うずらフォント"> トップページへ</font></h2>
                 </a>
                 <button class="toggle-menu-button"></button>
                 <div class="header-site-menu">
                     <nav class="site-menu">
                         <ul>
-                            <li><a href="concept.html">コンセプト</a></li>
-                            <li><a href="members.html">メンバー</a></li>
-                            <li><a href="access.html">アクセス</a></li>
-                        </ul>
+                            <li><a href="concept.html"><font face="うずらフォント">東郷紹介HP</font></a></li>
+                            <li><a href="members.html"><font face="うずらフォント">有松紹介HP</font></a></li>
+                               </ul>
                     </nav>
                 </div>
             </div>
         </header>
         <main class="main">
             <div class="members">
-                <h2><font face="うずらフォント"> 各務原の見どころ</font></h2>
+                <h1><font face="うずらフォント"> 各務原の見どころ</font></h1>
                 <ul class="member-list">
                     <li>
                         <dl>
                             <dt><font face="うずらフォント">マスコットキャラクター</font></dt>
                         </dl>
-                        <img src="Rarara.jpg" alt="ららら">
+                        <figure>
+                        <img src="imagesSource/Rarara.jpg" alt="ららら">
+                        <figcaption>[1]</figcaption>
+                        </figure>
                         <dl>
                             <dt><font face="うずらフォント">ららら</font></dt>
                             <dd><font face="うずらフォント">各務原市のキャラクター</font></dd>
                         </dl>
-                        <p class="speciality">専門分野: 自然言語処理</p>
+                        <p class="detail"><font face="うずらフォント">名前の由来は、<br>
+                            ・さく<u>ら</u><br>
+                            ・かかみがは<u>ら</u><br>
+                            ・きらき<u>ら</u><br>
+                            の3つの「ら」から成り立っている。</font>[1]</p>
                     </li>
                     <li>
-                        <img src="AquaTotoGifu.jpg" alt="アクア・トトぎふ" width="180" height="109">
+                        <dl>
+                            <dt><font face="うずらフォント">観光スポット</font></dt>
+                        </dl>
+                        <figure>
+                        <img src="imagesSource/AquaTotoGifu.jpg" alt="アクア・トトぎふ" width="180" height="109">
+                        <figcaption>[2]</figcaption>
+                    </figure>
                         <dl>
                             <dt><font face="うずらフォント">アクア・トトぎふ</font></dt>
-                            <dd><font face="うずらフォント">正式名称は世界淡水魚水族館で、川島町にある。</font></dd>
+                            <dd><font face="うずらフォント">各務原市にある水族館</font></dd>
                         </dl>
-                        <p class="speciality">専門分野: CG/HI/画像処理</p>
+                        <p class="detail"><font face="うずらフォント">正式名称は世界淡水魚水族館で、川島町にある。アクア・トトの「アクア」は水を、「トト」は稚魚の意味である。</font>[2]</p>
                     </li>
                     <li>
-                        <img src="KakamigaharaKimuchi.jpg" alt="各務原キムチ" width="210" height="112">
+                        <dl>
+                            <dt><font face="うずらフォント">グルメ</font></dt>
+                        </dl>
+                        <figure>
+                        <img src="imagesSource/KakamigaharaKimuchi.jpg" alt="各務原キムチ" width="210" height="112">
+                        <figcaption>[3]</figcaption>
+                    </figure>
                         <dl>
                             <dt><font face="うずらフォント">各務原キムチ</font></dt>
                             <dd><font face="うずらフォント">各務原の代表的なグルメ</font></dd>
                         </dl>
-                        <p class="speciality">専門分野: VR/五感インタフェース</p>
+                        <p class="detail"><font face="うずらフォント">2005年に</font></p>
                     </li>
                 </ul>
             </div>
         </main>
+        <p><h2><font face="うずらフォント"> 参考文献</font></h2>
+            [1]:<cite><a href="https://www.city.kakamigahara.lg.jp/shisei/aramashi/1006084.html"><font face="うずらフォント">市のキャラクター「ららら」｜各務原市公式ウェブサイト</font></a>
+            </cite><br>
+            [2]:<cite><a href="https://aquatotto.com/about/about/"><font face="うずらフォント">アクア・トト ぎふについて</font></a>
+            </cite><br>
+            [3]:<cite><a href="http://kakamigahara-kimuchi.com/story/"><font face="うずらフォント">各務原キムチ物語</font></a>
+            </cite>
+        </p>
         <footer class="footer">
             <nav class="site-menu">
                 <ul>
-                    <li><a href="concept.html">コンセプト</a></li>
-                    <li><a href="members.html">メンバー</a></li>
-                    <li><a href="access.html">アクセス</a></li>
+                    <li><a href="concept.html"><font face="うずらフォント">東郷紹介HP</font></a></li>
+                    <li><a href="members.html"><font face="うずらフォント">有松紹介HP</font></a></li>
                 </ul>
             </nav>
+
             <a class="footer-logo" href="index.html">
-                <img src="images/common/logo_footer.png" alt="ロゴ">
+                <h2><font face="うずらフォント"> トップページへ</font></h2>
             </a>
-            <p class="copyright"><small>&copy;名城大学情報工学部(嘘)</small></p>
+            <p class="copyright"><small>&copy;<font face="うずらフォント">2023 K.shibayama</font></small></p>
         </footer>
     </body>
 </html>

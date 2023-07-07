@@ -3,12 +3,12 @@
     padding-top: 45px;
     padding-bottom: 55px;
 }
-.members h2 {
-    font-size: 22px;
+.members h1 {
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
 }
-.members h2::after {
+.members h1::after {
     content: ‘’;
     display: block;
     width: 36px;
