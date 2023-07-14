@@ -1,7 +1,11 @@
 .members {
-    background: #fef4f4;
+    background-image: url("../imagesSource/BackGround.jpg");
+    background-repeat: no-repeat;    
     padding-top: 45px;
     padding-bottom: 55px;
+    align-items: center;
+    background-size: cover;
+    
 }
 .members h1 {
     font-size: 30px;
