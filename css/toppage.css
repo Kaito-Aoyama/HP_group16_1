@@ -9,7 +9,7 @@ nav.floating{
 
 .first-view {
     height: calc(100vh - 110px);
-    background-image: url(../images/index/tougou_3.jpg);
+    background-image: url(../images/index/white.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
