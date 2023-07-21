@@ -9,7 +9,7 @@ nav.floating{
 
 .first-view {
     height: calc(100vh - 110px);
-    background-image: url(../images/index/bg_main.jpg);
+    background-image: url(../images/index/tougou_3.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -76,7 +76,7 @@ img {
 
 .header-inner {
     max-width: 1200px;
-    height: 110px;
+    height: 230px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 40px;
@@ -185,7 +185,7 @@ img {
 
 .footer {
     color: #ffffff;
-    background-color: #24211b;
+    background-color: #10b0b3;
     padding-top: 30px;
     padding-bottom: 15px;
     display: flex;
@@ -203,4 +203,86 @@ img {
     font-size: 14pt;
     font-weight: bold;
     margin-top: 90px;
+}
+
+/*ここからmembers.css*/
+.members {
+    background-color: #f8f8f8;
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+.members h2 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.members h2::after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 3px;
+    background-color: #000000;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member-list {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.member-list li {
+    flex-shrink: 0;
+    width: 260px;
+    margin-left: 75px;
+    overflow: scroll;
+}
+
+.member-list li:first-child {
+    margin-left: 0;
+}
+
+/*ここからaccess.css*/
+
+.footer {
+    color: #ffffff;
+    background-color: #1c81ac;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    display: block;
+    width: 235px;
+    margin-top: 90px;
+}
+
+.copyright {
+    font-size: 14pt;
+    font-weight: bold;
+    margin-top: 90px;
+}
+
+.map{
+    width: 930px;
+    max-width: 90%;
+    margin-top: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map iframe{
+    display: block;
+    width: 100%;
+    height:  600px;
+    margin-top: 25px;
 }
