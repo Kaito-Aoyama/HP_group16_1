@@ -1,4 +1,23 @@
 
+.site-menu{
+    background-color: #e95295;
+    color: #fdeff2;
+}
+.site-menu a{
+    color: #fdeff2;
+}
+.footer{
+    background-color: #228b22;
+    color: #fdeff2;
+}
+.header{
+    background-color: #228b22;
+    color: #fdeff2;
+}
+.footer a{
+    color: #fdeff2;
+}
+
 .members {
     background-image: url("../imagesSource/BackGround.jpg");
     background-repeat: no-repeat; 
@@ -9,7 +28,7 @@
     
 }
 .clear{
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.7);
     background-size: cover;
 }
 .members h1 {
@@ -56,4 +75,16 @@
         width: 220px;
         margin-left: 30px;
     }
+
+        .members h1 {
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            color:#fdeff2;
+            -webkit-text-stroke: 0.5px #e95295;
+        }    
+        .member-list{
+            display: flex;
+            flex-direction: column;
+        }
 }
