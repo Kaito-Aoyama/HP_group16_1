@@ -9,7 +9,7 @@ nav.floating{
 
 .first-view {
     height: calc(100vh - 110px);
-    background-image: url(../images/index/bg_main.jpg);
+    background-image: url(../images/anada/ari\ \(10\).jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -26,7 +26,7 @@ nav.floating{
     padding-right: 80px;
     color: #ffffff;
     font-weight: bold;
-    text-shadow: 1px 1px 10px #4b2c14;
+    text-shadow: 1px 1px 10px #6451b2;
 }
 
 .first-view-text h1 {
@@ -160,7 +160,7 @@ img {
         left: 0;
         right: 0;
         color: #ffffff;
-        background-color: #736e62;
+        background-color: #464eb6;
         padding-top: 30px;
         padding-bottom: 50px;
         display: none;
