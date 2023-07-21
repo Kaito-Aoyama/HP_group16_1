@@ -1,21 +1,30 @@
-
-.site-menu{
-    background-color: #e95295;
-    color: #fdeff2;
+.header{
+    background-color: #228b22;
+    color: #ffccff;
 }
-.site-menu a{
-    color: #fdeff2;
+.header a{
+    color: #ffccff;
+}
+.header-site-menu{
+    background-color: #e95295;
+    color: #ffccff;
+}
+.header-site-menu a{
+    color: #ffccff;
+}
+.footer-site-menu{
+    background-color: #e95295;
+    color: #ffccff;
+}
+.footer-site-menu a{
+    color: #ffccff;
 }
 .footer{
     background-color: #228b22;
-    color: #fdeff2;
-}
-.header{
-    background-color: #228b22;
-    color: #fdeff2;
+    color: #ffccff;
 }
 .footer a{
-    color: #fdeff2;
+    color: #ffccff;
 }
 
 .members {
